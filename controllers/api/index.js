@@ -1,4 +1,6 @@
 const router = require('express').Router();
+const withAuth = require('../utils/auth');
+
 
 const userRoutes = require('./user-routes.js');
 const postRoutes = require('./post-routes');
